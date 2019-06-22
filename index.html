@@ -4,22 +4,731 @@
   <meta charset="UTF-8">
   <meta name="robots" content="noindex">
   <meta  name="viewport" content="width=device-width,initial-scale=1">
-  <title>Title</title>
+  <title>Такси</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
   <header class="header">
-    
+    <div class="wrapper header__wrap">
+      <div class="logo">
+        <img src="img/images/logo.png" alt="Logo">
+        <div class="logo__text">
+          <strong>Трансфер и Такси<br>из Аэропорта Анапы</strong>
+          <span>Комфортабельные поездки<br>на любом классе авто по минимальной цене</span>
+        </div>
+      </div>
+      <div class="contacts">
+        <a href="tel:+79002504040" class="contacts__phone">8(900) 250-40-40</a>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <a href="#" class="contacts__link contacts__link--tg"></a>
+          </li>
+          <li class="contacts__item">
+            <a href="#" class="contacts__link contacts__link--tel"></a>
+          </li>
+          <li class="contacts__item">
+            <a href="#" class="contacts__link contacts__link--vb"></a>
+          </li>
+        </ul>
+        <p class="contacts__time">24/7</p>
+        <a href="#" class="btn contacts__btn">Заказать обратный звонок</a>
+      </div>
+    </div>
   </header>
+  <nav class="menu">
+    <div class="wrapper">
+      <button type="button" class="menu__btn"></button>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#" class="menu__link">Стоимость</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Акция</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Отзывы</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Автопарк</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Консультации</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">О нас</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Лицензия</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   
   <main>
+    <section class="promo">
+      <div class="wrapper promo__wrap">
+        <h1 class="title">Трансфер и Такси<br>из Аэропорта Анапы</h1>
+        <p>Честные фиксированные цены<br>Гарантия лучшей цены в Анапе</p>
+        <a href="#" class="btn promo__btn">Заказать такси</a>
+      </div>
+    </section>
     
+    <section class="auto">
+      <div class="wrapper">
+        <p class="title-2">Наши классы автомобилей</p>
+        <div class="swiper-container gallery-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide auto__thumb">
+              <figure class="auto__icon">
+                <img src="img/images/auto-1.png" alt="Эконом">
+              </figure>
+              <p class="auto__name">Эконом</p>
+            </div>
+            <div class="swiper-slide auto__thumb">
+              <figure class="auto__icon">
+                <img src="img/images/auto-2.png" alt="Комфорт">
+              </figure>
+              <p class="auto__name">Комфорт</p>
+            </div>
+            <div class="swiper-slide auto__thumb">
+              <figure class="auto__icon">
+                <img src="img/images/auto-3.png" alt="Бизнес">
+              </figure>
+              <p class="auto__name">Бизнес</p>
+            </div>
+            <div class="swiper-slide auto__thumb">
+              <figure class="auto__icon">
+                <img src="img/images/auto-4.png" alt="Представительский">
+              </figure>
+              <p class="auto__name">Представительский</p>
+            </div>
+            <div class="swiper-slide auto__thumb">
+              <figure class="auto__icon">
+                <img src="img/images/auto-5.png" alt="Минивен">
+              </figure>
+              <p class="auto__name">Минивен</p>
+            </div>
+            <div class="swiper-slide auto__thumb">
+              <figure class="auto__icon">
+                <img src="img/images/auto-6.png" alt="Микроавтобус">
+              </figure>
+              <p class="auto__name">Микроавтобус</p>
+            </div>
+            <div class="swiper-slide auto__thumb">
+              <figure class="auto__icon">
+                <img src="img/images/auto-7.png" alt="Автобус">
+              </figure>
+              <p class="auto__name">Автобус</p>
+            </div>
+	        </div>
+        </div>
+
+        <div class="swiper-container gallery-top">
+	        <div class="swiper-wrapper">
+        	  <div class="swiper-slide auto__slide">
+              <figure class="auto__img">
+                <img src="img/images/auto-big.png" alt="Эконом">
+              </figure>
+              <div class="auto__title">
+                <p>Эконом</p>
+                <span>Toyota Corolla и другие</span>
+              </div>
+              <ul class="auto__list">
+                <li class="auto__item">
+                  <p>Низкая цена</p>
+                  <span>При том же уровне сервиса</span>
+                </li>
+                <li class="auto__item">
+                  <p>Автомобили класса В и выше</p>
+                  <span>не старше 5 лет</span>
+                </li>
+                <li class="auto__item">
+                  <p>Детское кресло</p>
+                  <span>если у вас маленький ребенок</span>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide auto__slide">
+              <figure class="auto__img">
+                <img src="img/images/auto-big.png" alt="Комфорт">
+              </figure>
+              <div class="auto__title">
+                <p>Комфорт</p>
+                <span>Toyota Corolla и другие</span>
+              </div>
+              <ul class="auto__list">
+                <li class="auto__item">
+                  <p>Низкая цена</p>
+                  <span>При том же уровне сервиса</span>
+                </li>
+                <li class="auto__item">
+                  <p>Автомобили класса В и выше</p>
+                  <span>не старше 5 лет</span>
+                </li>
+                <li class="auto__item">
+                  <p>Детское кресло</p>
+                  <span>если у вас маленький ребенок</span>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide auto__slide">
+              <figure class="auto__img">
+                <img src="img/images/auto-big.png" alt="Бизнес">
+              </figure>
+              <div class="auto__title">
+                <p>Бизнес</p>
+                <span>Toyota Corolla и другие</span>
+              </div>
+              <ul class="auto__list">
+                <li class="auto__item">
+                  <p>Низкая цена</p>
+                  <span>При том же уровне сервиса</span>
+                </li>
+                <li class="auto__item">
+                  <p>Автомобили класса В и выше</p>
+                  <span>не старше 5 лет</span>
+                </li>
+                <li class="auto__item">
+                  <p>Детское кресло</p>
+                  <span>если у вас маленький ребенок</span>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide auto__slide">
+              <figure class="auto__img">
+                <img src="img/images/auto-big.png" alt="Представительский">
+              </figure>
+              <div class="auto__title">
+                <p>Представительский</p>
+                <span>Toyota Corolla и другие</span>
+              </div>
+              <ul class="auto__list">
+                <li class="auto__item">
+                  <p>Низкая цена</p>
+                  <span>При том же уровне сервиса</span>
+                </li>
+                <li class="auto__item">
+                  <p>Автомобили класса В и выше</p>
+                  <span>не старше 5 лет</span>
+                </li>
+                <li class="auto__item">
+                  <p>Детское кресло</p>
+                  <span>если у вас маленький ребенок</span>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide auto__slide">
+              <figure class="auto__img">
+                <img src="img/images/auto-big.png" alt="Минивен">
+              </figure>
+              <div class="auto__title">
+                <p>Минивен</p>
+                <span>Toyota Corolla и другие</span>
+              </div>
+              <ul class="auto__list">
+                <li class="auto__item">
+                  <p>Низкая цена</p>
+                  <span>При том же уровне сервиса</span>
+                </li>
+                <li class="auto__item">
+                  <p>Автомобили класса В и выше</p>
+                  <span>не старше 5 лет</span>
+                </li>
+                <li class="auto__item">
+                  <p>Детское кресло</p>
+                  <span>если у вас маленький ребенок</span>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide auto__slide">
+              <figure class="auto__img">
+                <img src="img/images/auto-big.png" alt="Микроавтобус">
+              </figure>
+              <div class="auto__title">
+                <p>Микроавтобус</p>
+                <span>Toyota Corolla и другие</span>
+              </div>
+              <ul class="auto__list">
+                <li class="auto__item">
+                  <p>Низкая цена</p>
+                  <span>При том же уровне сервиса</span>
+                </li>
+                <li class="auto__item">
+                  <p>Автомобили класса В и выше</p>
+                  <span>не старше 5 лет</span>
+                </li>
+                <li class="auto__item">
+                  <p>Детское кресло</p>
+                  <span>если у вас маленький ребенок</span>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide auto__slide">
+              <figure class="auto__img">
+                <img src="img/images/auto-big.png" alt="Автобус">
+              </figure>
+              <div class="auto__title">
+                <p>Автобус</p>
+                <span>Toyota Corolla и другие</span>
+              </div>
+              <ul class="auto__list">
+                <li class="auto__item">
+                  <p>Низкая цена</p>
+                  <span>При том же уровне сервиса</span>
+                </li>
+                <li class="auto__item">
+                  <p>Автомобили класса В и выше</p>
+                  <span>не старше 5 лет</span>
+                </li>
+                <li class="auto__item">
+                  <p>Детское кресло</p>
+                  <span>если у вас маленький ребенок</span>
+                </li>
+              </ul>
+            </div>
+	        </div>
+          <div class="swiper-button-prev auto__prev"></div>
+          <div class="swiper-button-next auto__next"></div>
+        </div>
+        
+        <a href="#" class="btn auto__btn">Наш автопарк</a>
+      </div>
+    </section>
+    
+    <section class="price">
+      <div class="wrapper">
+        <p class="title-2">Узнайте цену прямо сейчас</p>
+        <div class="price__header">
+          <span>Направление</span>
+          <span>Эконом</span>
+          <span>Комфорт</span>
+          <span>Бизнес</span>
+          <span>Минивен</span>
+        </div>
+        <table class="price__table">
+          <tr>
+            <td>Алушта</td>
+            <td>990</td>
+            <td>1190</td>
+            <td>2500</td>
+            <td>2000</td>
+            <td><a href="#">Заказать</a></td>
+          </tr>
+          <tr>
+            <td>Алушта</td>
+            <td>990</td>
+            <td>1190</td>
+            <td>2500</td>
+            <td>2000</td>
+            <td><a href="#">Заказать</a></td>
+          </tr>
+          <tr>
+            <td>Алушта</td>
+            <td>990</td>
+            <td>1190</td>
+            <td>2500</td>
+            <td>2000</td>
+            <td><a href="#">Заказать</a></td>
+          </tr>
+          <tr>
+            <td>Алушта</td>
+            <td>990</td>
+            <td>1190</td>
+            <td>2500</td>
+            <td>2000</td>
+            <td><a href="#">Заказать</a></td>
+          </tr>
+          <tr>
+            <td>Алушта</td>
+            <td>990</td>
+            <td>1190</td>
+            <td>2500</td>
+            <td>2000</td>
+            <td><a href="#">Заказать</a></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    
+    <section class="benefits">
+      <div class="wrapper">
+        <p class="title-2">Преимущества</p>
+        <ul class="benefits__list">
+          <li class="benefits__item">
+            <figure class="benefits__img">
+              <img src="img/icons/icon-1.png" alt="Встречаем с табличкой">
+            </figure>
+            <p>Встречаем с табличкой</p>
+          </li>
+          <li class="benefits__item">
+            <figure class="benefits__img">
+              <img src="img/icons/icon-2.png" alt="Фиксированная цена">
+            </figure>
+            <p>Фиксированная цена</p>
+          </li>
+          <li class="benefits__item">
+            <figure class="benefits__img">
+              <img src="img/icons/icon-3.png" alt="Бесплатное ожидание при задержании рейса">
+            </figure>
+            <p>Бесплатное ожидание при задержании рейса</p>
+          </li>
+          <li class="benefits__item">
+            <figure class="benefits__img">
+              <img src="img/icons/icon-4.png" alt="Помощь с багажом">
+            </figure>
+            <p>Помощь с багажом</p>
+          </li>
+          <li class="benefits__item">
+            <figure class="benefits__img">
+              <img src="img/icons/icon-5.png" alt="Только иномарки">
+            </figure>
+            <p>Только иномарки</p>
+          </li>
+          <li class="benefits__item">
+            <figure class="benefits__img">
+              <img src="img/icons/icon-6.png" alt="Отчетные документы">
+            </figure>
+            <p>Отчетные документы</p>
+          </li>
+          <li class="benefits__item">
+            <figure class="benefits__img">
+              <img src="img/icons/icon-7.png" alt="Детское кресло">
+            </figure>
+            <p>Детское кресло</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="order">
+      <div class="wrapper order__wrap">
+        <div class="order__info">
+          <p class="order__title">Такси из Аэропорта Анапы<span>Цена от 490 руб.</span></p>
+          <p class="order__text">Оставьте заявку прямо сейчас И получите специальную цену Такси из аэропорта Анапы в Анапу или из Анапы в аэропорт Витязево На автомобиле Комфорт Класса Всего за 490 руб.</p>
+          <div class="order__label">
+            <p>+ скидку на обратную поездку<span>от 10 до 50 %</span></p>
+          </div>
+        </div>
+        <div class="order__for">
+          <p class="order__form-title">Записаться прямо сейчас</p>
+          <form action="#" class="form">
+            <fieldset class="form__field">
+              <label for="name" class="form__label">Ваше имя</label>
+              <input type="text" id="name" class="form__input" placeholder="Имя">
+            </fieldset>
+            <fieldset class="form__field">
+              <label for="tel" class="form__label">Ваш телефон</label>
+              <input type="tel" id="tel" class="form__input" placeholder="Телефон">
+            </fieldset>
+            <fieldset class="form__field">
+              <label for="email" class="form__label">Ваш email</label>
+              <input type="email" id="email" class="form__input" placeholder="Email">
+            </fieldset>
+            <input type="checkbox" id="check" class="form__checkbox" checked>
+            <label for="check" class="form__check">Согласен с условиями <a href="#">Пользовательского соглашения</a></label>
+            <button type="submit" class="btn form__btn">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <section class="review">
+      <div class="wrapper">
+        <p class="title-2">Отзывы наших клиентов</p>
+        <div class="swiper-container review__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide review__slide">
+              <div class="review__person">
+                <figure class="review__img">
+                  <img src="img/images/avatar.jpg" alt="Ян Кухальский">
+                </figure>
+                <div class="review__info">
+                  <p class="review__name">Ян Кухальский</p>
+                  <p class="review__text">Генеральный директор MegaLabs</p>
+                </div>
+              </div>
+              <p>Хотелось бы отметить глубокую аналитическую работу, которая проводится перед выполнением каждой задачи. Это позволяет оптимизировать рабочий процесс и добиться высокого качества готового продукта. Рекомендуем Нэйм как надежного партнера в разработкевеб-сайтов и  сложных сервисным систем. Хотелось бы отметить глубокую аналитическую работу, которая проводится перед выполнением каждой задачи. Это позволяет оптимизировать рабочий процесс и добиться высокого качества готового продукта. Рекомендуем Нэйм как надежного партнера в разработкевеб-сайтов и  сложных сервисным систем.</p>
+            </div>
+            <div class="swiper-slide review__slide">
+              <div class="review__person">
+                <figure class="review__img">
+                  <img src="img/images/avatar.jpg" alt="Ян Кухальский">
+                </figure>
+                <div class="review__info">
+                  <p class="review__name">Ян Кухальский</p>
+                  <p class="review__text">Генеральный директор MegaLabs</p>
+                </div>
+              </div>
+              <p>Хотелось бы отметить глубокую аналитическую работу, которая проводится перед выполнением каждой задачи. Это позволяет оптимизировать рабочий процесс и добиться высокого качества готового продукта. Рекомендуем Нэйм как надежного партнера в разработкевеб-сайтов и  сложных сервисным систем. Хотелось бы отметить глубокую аналитическую работу, которая проводится перед выполнением каждой задачи. Это позволяет оптимизировать рабочий процесс и добиться высокого качества готового продукта. Рекомендуем Нэйм как надежного партнера в разработкевеб-сайтов и  сложных сервисным систем.</p>
+            </div>
+          </div>
+          <div class="swiper-pagination review__pagination"></div>
+        </div>
+      </div>
+      <div class="swiper-button-prev review__prev"></div>
+      <div class="swiper-button-next review__next"></div>
+    </section>
+    
+    <section class="park">
+      <div class="wrapper">
+        <p class="title-2">Наш автопарк</p>
+        <div class="swiper-container park__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide park__slide">
+              <figure class="park__img">
+                <img src="img/images/img-1.jpg" alt="Hyndai Elantra">
+              </figure>
+              <div class="park__info">
+                <p>Hyndai Elantra</p>
+                <span>Комфорт</span>
+              </div>
+            </div>
+            <div class="swiper-slide park__slide">
+              <figure class="park__img">
+                <img src="img/images/img-2.jpg" alt="Hyndai Elantra">
+              </figure>
+              <div class="park__info">
+                <p>Hyndai Elantra</p>
+                <span>Комфорт</span>
+              </div>
+            </div>
+            <div class="swiper-slide park__slide">
+              <figure class="park__img">
+                <img src="img/images/img-3.jpg" alt="Hyndai Elantra">
+              </figure>
+              <div class="park__info">
+                <p>Hyndai Elantra</p>
+                <span>Комфорт</span>
+              </div>
+            </div>
+            <div class="swiper-slide park__slide">
+              <figure class="park__img">
+                <img src="img/images/img-4.jpg" alt="Hyndai Elantra">
+              </figure>
+              <div class="park__info">
+                <p>Hyndai Elantra</p>
+                <span>Комфорт</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev park__prev"></div>
+      <div class="swiper-button-next park__next"></div>
+    </section>
+    
+    <section class="pass">
+      <div class="wrapper">
+        <p class="title-2">Получите бесплатную консультацию по вашему маршруту в течении 5 минут</p>
+        <form action="#" class="form">
+          <div class="form__wrap">
+            <fieldset class="form__field">
+              <label for="from" class="form__label">Откуда ехать:</label>
+              <select id="from" class="form__select">
+                <option value="1">Ж/Д Новороссийск</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </fieldset>
+            <fieldset class="form__field">
+              <label for="to" class="form__label">Куда ехать:</label>
+              <select id="to" class="form__select">
+                <option value="1"></option>
+                <option value="2">Option 2</option>
+                <option value="3">Ж/Д Новороссийск</option>
+              </select>
+            </fieldset>
+            <fieldset class="form__field">
+              <label for="tel2" class="form__label">Ваш телефон</label>
+              <input type="tel" id="tel2" class="form__input" placeholder="Телефон">
+            </fieldset>
+            <button type="submit" class="btn form__btn">Отправить заявку</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    
+    <section class="blog">
+      <div class="wrapper">
+        <p class="title-2">Материалы для путешественников</p>
+        <ul class="blog__list">
+          <li class="blog__item">
+            <figure class="blog__img">
+              <img src="img/images/img-5.jpg" alt="Материалы для путешественников">
+              <figcaption>Такси<br>Симферополь - Ялта</figcaption>
+            </figure>
+            <div class="blog__info">
+              <p>Майнинг криптовалют кажется новичкам сложным процессом, который требует глубоких технических познаний. Однако на практике его запуск сводится к правильной настройке и включению ПО для майнинга. В данной статье мы расскажем о том, как правильно выбрать необходимый софт, как он работает и о других программных особенностях добычи криптовалюты.</p>
+              <div class="blog__line">
+                <time datetime="2019-02-24">24. 02. 2019</time>
+                <a href="#" class="blog__link">Подробнее></a>
+              </div>
+            </div>
+          </li>
+          <li class="blog__item">
+            <figure class="blog__img">
+              <img src="img/images/img-5.jpg" alt="Материалы для путешественников">
+              <figcaption>Такси<br>Симферополь - Ялта</figcaption>
+            </figure>
+            <div class="blog__info">
+              <p>Майнинг криптовалют кажется новичкам сложным процессом, который требует глубоких технических познаний. Однако на практике его запуск сводится к правильной настройке и включению ПО для майнинга. В данной статье мы расскажем о том, как правильно выбрать необходимый софт, как он работает и о других программных особенностях добычи криптовалюты.</p>
+              <div class="blog__line">
+                <time datetime="2019-02-24">24. 02. 2019</time>
+                <a href="#" class="blog__link">Подробнее></a>
+              </div>
+            </div>
+          </li>
+          <li class="blog__item">
+            <figure class="blog__img">
+              <img src="img/images/img-5.jpg" alt="Материалы для путешественников">
+              <figcaption>Такси<br>Симферополь - Ялта</figcaption>
+            </figure>
+            <div class="blog__info">
+              <p>Майнинг криптовалют кажется новичкам сложным процессом, который требует глубоких технических познаний. Однако на практике его запуск сводится к правильной настройке и включению ПО для майнинга. В данной статье мы расскажем о том, как правильно выбрать необходимый софт, как он работает и о других программных особенностях добычи криптовалюты.</p>
+              <div class="blog__line">
+                <time datetime="2019-02-24">24. 02. 2019</time>
+                <a href="#" class="blog__link">Подробнее></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="info">
+      <div class="wrapper">
+        <p class="title-2">Текст</p>
+        <p>Мы хотим, чтобы люди могли свободно перемещаться по городу и чувствовать себя в безопасности: навещать близких или посещать важные мероприятия. Поэтому мы чрезвычайно серьезно относимся к безопасности поездок, вводим новые стандарты и разрабатываем технологии для снижения количества ДТП.</p>
+        <p>Car Trip — это современный сервис online-бронирования трансфера. Мы быстро растущая компания, за это время уже перевезли большой поток туристов и накопили серьезный опыт в перевозках.<br>Работаем так, чтобы ваш путь был комфортным и безопасным, а заказ на сайте - понятным и быстрым. В отличие от такси, стоимость трансфера фиксирована - любой адрес в городе по одной цене. Вы не платите за встречу с табличкой и провоз багажа. Даже если рейс задержали, мы дождёмся вас бесплатно.</p>
+        <p>Заказывайте как удобно - с мобильного приложения или заранее, на сайте. Экономьте время на ожидании - автомобиль прибудет к запланированной минуте.</p>
+        <p>С мобильным приложением Car Trip заказ трансфера займёт меньше минуты, где бы вы ни находились. Скачать приложение:</p>
+        <div class="info__imgs">
+          <figure class="info__img">
+            <img src="img/images/img-7.jpg" alt="Текст">
+          </figure>
+          <figure class="info__img">
+            <img src="img/images/img-8.jpg" alt="Текст">
+          </figure>
+        </div>
+        <p>Мы хотим, чтобы люди могли свободно перемещаться по городу и чувствовать себя в безопасности: навещать близких или посещать важные мероприятия. Поэтому мы чрезвычайно серьезно относимся к безопасности поездок, вводим новые стандарты и разрабатываем технологии для снижения количества ДТП.</p>
+        <p>Car Trip — это современный сервис online-бронирования трансфера. Мы быстро растущая компания, за это время уже перевезли большой поток туристов и накопили серьезный опыт в перевозках.<br>Работаем так, чтобы ваш путь был комфортным и безопасным, а заказ на сайте - понятным и быстрым. В отличие от такси, стоимость трансфера фиксирована - любой адрес в городе по одной цене. Вы не платите за встречу с табличкой и провоз багажа. Даже если рейс задержали, мы дождёмся вас бесплатно.<br>Заказывайте как удобно - с мобильного приложения или заранее, на сайте. Экономьте время на ожидании - автомобиль прибудет к запланированной минуте.</p>
+      </div>
+    </section>
   </main>
-  
+
   <footer class="footer">
-    
+    <nav class="menu">
+      <div class="wrapper">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Стоимость</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Акция</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Отзывы</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Автопарк</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Консультации</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">О нас</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Лицензия</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="wrapper footer__wrap">
+      <div class="contacts">
+        <a href="tel:+79002504040" class="contacts__phone">8(900) 250-40-40</a>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <a href="#" class="contacts__link contacts__link--tg"></a>
+          </li>
+          <li class="contacts__item">
+            <a href="#" class="contacts__link contacts__link--tel"></a>
+          </li>
+          <li class="contacts__item">
+            <a href="#" class="contacts__link contacts__link--vb"></a>
+          </li>
+        </ul>
+        <p class="contacts__time">24/7</p>
+        <a href="#" class="btn contacts__btn">Заказать обратный звонок</a>
+      </div>
+      <div class="footer__text">
+        <a href="mailto:info@taxi-gelenszhik-anapa.ru" class="footer__mail">info@taxi-gelenszhik-anapa.ru</a>
+        <p>ИП Ершов Ю.Г.<br> 
+          353440, Россия, г. Анапа, ул. Трудящихся/ Ленина 91/67<br>
+          Св-во ОГРН №314230111200070 от 22.04.2014 г.<br>
+          ИНН 2301033888703
+        </p>
+      </div>
+      <div class="footer__docs">
+        <a href="#" class="footer__doc">
+          <img src="img/images/doc-1.jpg" alt="Лицензия">
+        </a>
+        <a href="#" class="footer__doc">
+          <img src="img/images/doc-2.jpg" alt="Лицензия">
+        </a>
+      </div>
+    </div>
   </footer>
   
-  <script src=""></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+  
+  <!-- Sliders -->
+  <script>
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 25,
+      slidesPerView: 'auto',
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    
+    var galleryTop = new Swiper('.gallery-top', {
+      navigation: {
+        nextEl: '.auto__next',
+        prevEl: '.auto__prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+    
+    var mySwiper = new Swiper ('.park__slider', {
+      navigation: {
+        nextEl: '.park__next',
+        prevEl: '.park__prev',
+      },
+      preventClicks: false,
+      preventClicksPropagation: false,
+      slidesPerView: 'auto',
+      spaceBetween: 30,
+    });
+    
+    var mySwiper = new Swiper ('.review__slider', {
+      pagination: {
+        el: '.review__pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.review__next',
+        prevEl: '.review__prev',
+      },
+      preventClicks: false,
+      preventClicksPropagation: false,
+      slidesPerView: 'auto',
+      spaceBetween: 30,
+    });
+  </script>
 </body>
 </html>
